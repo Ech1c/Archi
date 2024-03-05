@@ -1,0 +1,17 @@
+.
+├── Archi
+│   ├── 1.py
+│   ├── README.md
+│   ├── gg.py
+│   └── lab1
+├── README.md
+├── cat1
+│   ├── cat2
+│   │   └── cat5
+│   └── cat8
+├── current_date
+├── dir
+│   └── current_date
+├── gg.py
+├── lab1
+└── link1 -> dir/date/link1
