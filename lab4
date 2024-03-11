@@ -1,0 +1,11 @@
+find /home/root -type f | wc -l
+find . -type f ! -type l -exec basename {} \; > filelist1.txt
+find ~ -type f -size +5k -exec ls -l {} \; > filrlist2.txt
+whereis locate bash
+greb "/home" passwd_example > filelist3.txt
+gzip filelist1.txt
+bzip2 filelist1.txt
+tar -cvf myarchiv.tar filelist1.txt filelist2.txt filelist3.txt
+tar -r passwd_example myarc
+zip -r archive.zip filelist1.txt filelist2.txt filelist3.txt passwd_example
+diff myarchive.tar archive.zip
