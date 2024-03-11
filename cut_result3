@@ -1,0 +1,23 @@
+bin
+daemon
+dbus
+dhcpcd
+egor
+ftp
+git
+http
+igor
+mail
+nobody
+oleg
+oleg2
+root
+systemd-coredump
+systemd-journal-remote
+systemd-network
+systemd-oom
+systemd-resolve
+systemd-timesync
+tss
+uuidd
+PS1="\[\033[0;41m\]<\u@\h \W>\$\[\033[0m\]"
